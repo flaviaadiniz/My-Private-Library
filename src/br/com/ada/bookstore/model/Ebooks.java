@@ -1,47 +1,30 @@
 package br.com.ada.bookstore.model;
 
-import br.com.ada.bookstore.enumeracao.NonFictionGenres;
+public class Ebooks extends Book {
 
-public class NonFiction extends Book {
+    private String storedIn;
 
-    private String genre;
-    private boolean isLoaned;
-    private String loanedTo;
-
-
-    public NonFiction() {
-        super();
+    public Ebooks() {
     }
 
-    public String getGenre() {
-        return genre;
+    public String getStoredIn() {
+        return storedIn;
     }
 
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public void setStoredIn(String storedIn) {
+        this.storedIn = storedIn;
     }
 
-    public boolean isLoaned() {
-        return isLoaned;
+    @Override
+    public void loanBook(boolean isLoaned, String loanedTo) {
+        System.err.println("Erro! Você não pode emprestar um ebook!");
     }
 
-    public void setLoaned(boolean loaned) {
-        isLoaned = loaned;
-    }
-
-    public String getLoanedTo() {
-        return loanedTo;
-    }
-
-    public void setLoanedTo(String loanedTo) {
-        this.loanedTo = loanedTo;
-    }
 
     @Override
     public String toString() {
         return super.toString() +
-                " | Gênero: " + genre +
-                " ]";
+                " * Ebook armazenado no " + storedIn +
+                " *";
     }
-
 }

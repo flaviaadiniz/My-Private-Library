@@ -1,9 +1,8 @@
 package br.com.ada.bookstore.model;
 
-public interface Registravel {
+public interface Registrable {
 
-    void registerBook();
-    Book registerPhysicalBook();
-    Book registerEbook();
+    void register();
+
 
 }

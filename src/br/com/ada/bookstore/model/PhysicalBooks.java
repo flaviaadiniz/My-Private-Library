@@ -2,29 +2,23 @@ package br.com.ada.bookstore.model;
 
 import java.util.Scanner;
 
-public class Fiction extends Book {
+public class PhysicalBooks extends Book {
 
-    private String genre;
-    private boolean isLoaned;
+    private boolean loaned;
     private String loanedTo;
 
-
-    public Fiction() {
+    public PhysicalBooks() {
         super();
-        isLoaned = false;
+        loaned = false;
         loanedTo = null;
     }
 
-    public String getGenre() {
-        return genre;
-    }
-
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public boolean isLoaned() {
+        return loaned;
     }
 
     public void setLoaned(boolean loaned) {
-        isLoaned = loaned;
+        this.loaned = loaned;
     }
 
     public String getLoanedTo() {
@@ -36,16 +30,19 @@ public class Fiction extends Book {
     }
 
     @Override
+    public void loanBook(boolean isLoaned, String loanedTo) {
+        setLoaned(isLoaned);
+        setLoanedTo(loanedTo);
+    }
+
+    @Override
     public String toString() {
-        if (isLoaned) {
+        if (loaned) {
             return super.toString() +
-                    " | Gênero: " + genre +
                     " | LIVRO EMPRESTADO para " + loanedTo +
                     "]";
         } else {
-            return super.toString() +
-                    " | Gênero: " + genre +
-                    " ]";
+            return super.toString();
         }
     }
 
