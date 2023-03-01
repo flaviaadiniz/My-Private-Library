@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8c98ec2-3ae0-46bb-8944-bdbdcdeec5ec" name="Changes" comment="First commit">
+    <list default="true" id="b8c98ec2-3ae0-46bb-8944-bdbdcdeec5ec" name="Changes" comment="Changed the name of the project to &quot;My Private Library&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoFinalOO2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/business/MyLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/business/MyLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Ebooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Ebooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjetoFinalOO2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/My-Private-Library.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/PhysicalBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/PhysicalBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Registrable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/model/Registrable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/bookstore/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/bookstore/repository/BookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +48,6 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjetoFinalOO2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjetoFinalOO2" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,8 +62,18 @@
       <workItem from="1668970255771" duration="17501000" />
       <workItem from="1669049051363" duration="12972000" />
       <workItem from="1669148143978" duration="12535000" />
-      <workItem from="1669241365859" duration="1081000" />
+      <workItem from="1669241365859" duration="3051000" />
+      <workItem from="1671481442664" duration="34000" />
+      <workItem from="1677704438855" duration="502000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1669242488526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669242488526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Changed the name of the project to &quot;My Private Library&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the name of the project to &quot;My Private Library&quot;" />
   </component>
 </project>

@@ -1,7 +1,5 @@
 package br.com.ada.bookstore.model;
 
-import java.util.Scanner;
-
 public class PhysicalBooks extends Book {
 
     private boolean loaned;
@@ -39,8 +37,8 @@ public class PhysicalBooks extends Book {
     public String toString() {
         if (loaned) {
             return super.toString() +
-                    " | LIVRO EMPRESTADO para " + loanedTo +
-                    "]";
+                    " * LIVRO EMPRESTADO para " + loanedTo +
+                    "*";
         } else {
             return super.toString();
         }
